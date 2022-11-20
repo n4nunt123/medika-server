@@ -280,14 +280,6 @@ _404 - Bad Request_
       "message": "Error data not found"
     }
     ```
-    
-_404 - Bad Request_
-- Body
-    ```json
-    {
-      "message": "Error data not found"
-    }
-    ```
 
 ### Global Error
 #### Response
