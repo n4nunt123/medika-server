@@ -28,7 +28,7 @@ class scheduleController {
     try {
       const { id } = req.params
       const data = await connectdb().collection('userSchedule').findOne({ _id: ObjectId(id) })
-      if(!data) res.status(400).json({ message: 'Error data not found' })
+      if(!data) res.status(404).json({ message: 'Error data not found' })
       res.status(200).json(data)
     } catch (err) {
       res.status(500).json({ message: 'internal server error' })
