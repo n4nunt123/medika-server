@@ -148,7 +148,7 @@ _200 - OK_
     ```
 
 
-## GET /schedule-users
+## POST /schedule-users
 ### Description
   - Get all data schedule user
 #### Request
@@ -186,7 +186,7 @@ _404 - Bad Request_
     ```
     
     
-## POST /schedule-users
+## GET /schedule-users
 ### Description
   - Create new data schedule user
 #### Response
