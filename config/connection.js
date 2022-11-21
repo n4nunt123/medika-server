@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb')
 
-const url = 'mongodb+srv://omocareer:omocareer@omocareer.vctw0cw.mongodb.net'
+const url = 'mongodb+srv://<credential>@omocareer.vctw0cw.mongodb.net'
 const dbName = 'medikadb'
 let dbConnection
 
